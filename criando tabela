@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    cadeia nomes[] = {"João", "Maria", "José"}
+    real tempo[] = {12.5, 25.0, 40.0}
+    inteiro filhos[] = {5, 2, 6}
+    caracter fumante[] = {'S', 'N','S'}
+
+    escreva("\n||NOMES\t\t||HORAS TRABALHADAS\t\t||NUMERO DE FILHOS\t\t||FUMANTE\t\t")
+
+    para(inteiro i = 0; i < 3; i++){
+        escreva("\n\t",nomes[i],"\t\t\t\t\t\t",tempo[i],"\t\t\t\t\t\t\t\t\t\t\t",filhos[i],"\t\t\t\t\t\t\t\t",fumante[i])
+    }
+    escreva("\n")
+
+
+  
+
+
+    
+  }
+}
