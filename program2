@@ -1,0 +1,18 @@
+programa {
+  inclua biblioteca Util --> ut
+  funcao inicio() {
+    inteiro notas[] = {2, 3, 45, 12, 34, 89, 10, 11, 23, 78}, tamanhoVetor
+
+    tamanhoVetor = ut.numero_elementos(notas)
+    escreva("O tamanho do vetor é: ", tamanhoVetor, ".\n")
+
+
+
+    escreva("O valor armazenado na posição 2 é: ", notas[2], ".\n")
+
+    para(inteiro i = 0; i < 10; i++){
+      escreva("\n",notas[i], "\n")
+    }
+    
+  }
+}
